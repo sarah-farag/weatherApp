@@ -10,10 +10,9 @@ type WeatherResponse struct {
 }
 
 type GeoResponse struct {
-	Results []struct{
+	Results []struct {
 		Latitude  float64 `json:"latitude"`
-        Longitude float64 `json:"longitude"`
-        Name      string  `json:"name"`
-    } `json:"results"`	
-	}
+		Longitude float64 `json:"longitude"`
+		Name      string  `json:"name"`
+	} `json:"results"`
 }
